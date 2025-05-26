@@ -234,16 +234,16 @@
 
   <script>
     const products = [
-      { id: 1, name: 'Cyberpunk 2077', price: 3999, platforms: ['PC', 'PS5', 'Xbox'], image: '' },
-      { id: 2, name: 'God of War Ragnarök', price: 4999, platforms: ['PS5'], image: '' },
-      { id: 3, name: 'Super Mario Odyssey', price: 3499, platforms: ['Switch'], image: '' },
-      { id: 4, name: 'Elden Ring', price: 4299, platforms: ['PC', 'PS5', 'Xbox'], image: '' },
-      { id: 5, name: 'The Legend of Zelda: Tears of the Kingdom', price: 4599, platforms: ['Switch'], image: '' },
-      { id: 6, name: 'Baldur’s Gate 3', price: 3799, platforms: ['PC', 'PS5'], image: '' },
-      { id: 7, name: 'Halo Infinite', price: 3999, platforms: ['PC', 'Xbox'], image: '' },
-      { id: 8, name: 'Horizon Forbidden West', price: 4499, platforms: ['PS5'], image: '' },
-      { id: 9, name: 'Forza Horizon 5', price: 3699, platforms: ['PC', 'Xbox'], image: '' },
-      { id: 10, name: 'Hades', price: 1999, platforms: ['PC', 'Switch'], image: '' }
+      { id: 1, name: 'Cyberpunk 2077', price: 3999, platforms: ['PC', 'PS5', 'Xbox'], image: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FCyberpunk_2077&psig=AOvVaw2gsSGgpypLtyed5-o68PB5&ust=1748347670133000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCLCtheCMwY0DFQAAAAAdAAAAABAE' },
+      { id: 2, name: 'God of War Ragnarök', price: 4999, platforms: ['PS5'], image: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fstore.steampowered.com%2Fapp%2F2322010%2FGod_of_War_Ragnark%2F&psig=AOvVaw0JgferfIw3iiDDsmibvaNy&ust=1748347773141000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCPC0q5GNwY0DFQAAAAAdAAAAABAK' },
+      { id: 3, name: 'Super Mario Odyssey', price: 3499, platforms: ['Switch'], image: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.nintendo.com%2Fus%2Fstore%2Fproducts%2Fsuper-mario-odyssey-switch%2F&psig=AOvVaw2o685isl_l32nGSB3FyGqJ&ust=1748347805309000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCOCMmKGNwY0DFQAAAAAdAAAAABAx' },
+      { id: 4, name: 'Elden Ring', price: 4299, platforms: ['PC', 'PS5', 'Xbox'], image: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DJldMvQMO_5U&psig=AOvVaw3__3S0fs2KBssSDXjcqBh3&ust=1748347835880000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCOjBk6-NwY0DFQAAAAAdAAAAABAi' },
+      { id: 5, name: 'The Legend of Zelda: Tears of the Kingdom', price: 4599, platforms: ['Switch'], image: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Ftheconversation.com%2Fheres-why-the-legend-of-zelda-tears-of-the-kingdom-is-big-news-even-among-those-who-dont-see-themselves-as-gamers-205229&psig=AOvVaw0-2f73TS_9zHXmybFgnG9w&ust=1748347869576000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCOC9gb-NwY0DFQAAAAAdAAAAABAk' },
+      { id: 6, name: 'Baldur’s Gate 3', price: 3799, platforms: ['PC', 'PS5'], image: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.essentiallysports.com%2Fesports-news-heres-how-you-can-get-powerful-early-in-baldurs-gate-three%2F&psig=AOvVaw0Fa807fxr2KhViGbAiv5OQ&ust=1748347898506000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCMDT78yNwY0DFQAAAAAdAAAAABAk' },
+      { id: 7, name: 'Halo Infinite', price: 3999, platforms: ['PC', 'Xbox'], image: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fstore.steampowered.com%2Fapp%2F1240440%2FHalo_Infinite%2F%3Fl%3Drussian&psig=AOvVaw0qicTX8LDFCxDMcaSMXtky&ust=1748347945372000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCJjUvOONwY0DFQAAAAAdAAAAABAv' },
+      { id: 8, name: 'Horizon Forbidden West', price: 4499, platforms: ['PS5'], image: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.playstation.com%2Fen-sa%2Fgames%2Fhorizon-forbidden-west%2F&psig=AOvVaw1ZvVupRfKuh0dYIoPO4lo_&ust=1748347966715000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCODut-2NwY0DFQAAAAAdAAAAABAL' },
+      { id: 9, name: 'Forza Horizon 5', price: 3699, platforms: ['PC', 'Xbox'], image: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fnews.xbox.com%2Fen-us%2F2021%2F11%2F04%2Fforza-horizon-5-early-access-launch%2F&psig=AOvVaw34bozALheKnsYp3UiLv6Fx&ust=1748348003936000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCOC1lP-NwY0DFQAAAAAdAAAAABAk' },
+      { id: 10, name: 'Hades', price: 1999, platforms: ['PC', 'Switch'], image: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fstore.epicgames.com%2Fru%2Fp%2Fhades&psig=AOvVaw0ijNgdv_S5JpJjXSQoGVTh&ust=1748348049099000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCIDd-ZSOwY0DFQAAAAAdAAAAABAE' }
     ];
 
     let cart = JSON.parse(localStorage.getItem('cart')) || [];
